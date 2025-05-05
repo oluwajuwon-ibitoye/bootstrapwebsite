@@ -1,0 +1,422 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+
+  font-family: 'Lato', sans-serif;
+  }
+  header{
+    background-color: rgb(116, 125, 121);
+    
+  } #quote-container {
+    box-sizing: border-box;
+    background-color: rgb(116, 125, 121);
+     z-index: 3;
+     position: relative;
+     position: fixed;
+   }
+   .quote-text {
+        border-radius: 0 100px 0 100px;
+      position: absolute;
+      width: 200px;
+      color: #000000;
+      font-size: 15px;
+      padding: 40px;
+      text-align: center;
+      background-color: rgb(116, 125, 121);
+  }
+  button{
+        background-color: rgb(116, 125, 121);
+  }
+
+  .container1{
+      position: relative;
+      z-index: 2;
+      background-color: none;
+  }
+  button.closebtn{
+    text-decoration: underline;
+    font-size: 18px;
+    background-color: rgb(116, 125, 121);
+    border: none;
+    padding-top: 10px;
+  }    
+    header video{
+      width: 100%;
+  }
+  header a{
+      font-size: 30px;
+      text-decoration: none;
+      color: #000000;
+  }
+
+  header a.icon{
+      position: absolute;
+      bottom: 120px;
+      right: 45px;
+      position: fixed;
+      font-size: 40px;
+
+  }
+  .overlay {
+      height: 100%;
+      width: 100%;
+      display: none;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color:  rgb(116, 125, 121);
+      background-color: rgba(116,125,121, 1);
+  }
+
+  .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      justify-items: center;
+      margin-top: 30px;
+  }
+
+  .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 30px;
+      color: #000000;
+      display: block;
+      transition: 0.3s;
+  }
+
+  .overlay .overlay-content a:hover, .overlay .overlay-content a:focus {
+      color: #f1f1f1;
+  }
+
+  .overlay .closebtn {
+      position: absolute;
+      bottom: 120px;
+      right: 45px;
+      font-size: 45px;
+      color: #00000;
+  }
+  .container-fluid{
+    width: 100%;
+  }
+  main{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left:70px ;
+    padding-right: 30px;
+  }
+   .col-lg-9{
+    font-size: 20px;
+  }
+  
+    .fimg{
+      width: 100%;
+    }
+    .caption{
+    display:flex;
+    padding-top: 10px;
+    }
+  .caption p{
+    font-size: 15px;
+    margin-left: 10px;
+    padding-left: 50px;
+      }
+      .brand{
+    background-color: rgb(255, 250, 132);
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left:70px ;
+    padding-right: 100px;
+  }
+  .brand h5{
+    padding-bottom: 20px;
+  }
+  .brand a{
+    padding-top: 20px;
+    text-decoration: none;
+    color: #000000;
+  }
+  .one, .two, .three, .four, .five, .six, .seven, .eight{
+    margin-top: 20px;
+  }
+  .two .col-lg-6,.two .col-lg-8, .three .col-lg-6, .col-lg-8{
+    padding-top: 10px;
+  }
+  .para{
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-left: 100px;
+  }
+  .caption{
+    display:flex;
+    padding-top: 10px;
+    }
+  article{
+     background-color: rgb(116, 125, 121);
+    padding-top: 25px;
+    padding-bottom: 30px;
+  
+  }
+  article h5{
+    padding-left: 60px;
+    padding-bottom: 50px;
+  }
+  article p{
+    padding-top: 40px;
+    padding-left: 60px;
+  }
+  article div a{
+    padding-left: 75px;
+    padding-top: 30px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .news{
+    background-color: rgb(116, 125, 121);
+    margin-top: 30px ;
+    margin-bottom: 40px ;
+    padding-top: 40px; 
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px ;
+  }
+  .news h5{
+    padding-bottom: 20px;
+  }
+  .news .col-lg-4 p{
+    padding-top: 20px;
+  }
+  .news div a{
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    padding-bottom: 30px;
+
+  }
+  .four, .eight{
+    padding-bottom: 30px;
+  }
+  .four div a, .five div a, .eight div a{
+    padding-left: 100px;
+    padding-top: 30px;
+    text-decoration: none;
+    color: #000000;
+
+  }
+  .all{
+    padding-top: 30px;
+    padding-left: 70px;
+  }
+  footer{
+    background-color: rgb(116, 125, 121);
+    margin-top: 20px;
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 50px;
+     padding-bottom: 100px;
+
+  }
+  footer .col-lg-2 a, footer .col-lg-4 a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding-right: 10px;
+  }
+  footer .col-lg-2, footer .col-lg-4{
+    padding-top: 30px;
+  }
+  footer .col-lg-2 .social{
+    display: inline;
+  }
+  form a{
+    text-decoration: none;
+    color: #000000;
+  }
+  input[type=email]{
+    width: 75%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid #000000;
+    background-color:  rgb(116, 125, 121);
+  }
+  label{
+    padding: 0 12px 12px 0;
+    display: inline-block;
+  }
+ .check input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    padding-left: 0;
+    margin-top: 5px;
+   }
+  input[type=submit]{
+    background-color: rgb(116, 125, 121);
+    border: none;
+    margin-left: 180px;
+    cursor: pointer;
+  }
+  
+  footer .check a{
+    display: inline;
+    padding-left: 5px;
+
+  }
+  
+      @media screen and (min-width:992px){
+         header a.icon{
+          all:revert;
+      position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+      color: rgb(255, 250, 132);
+      position: fixed;
+  }
+  .overlay .closebtn{
+    all: revert;
+    color: rgb(255, 250, 132);
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    position: fixed;
+    
+  }
+  main{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-left:200px ;
+    padding-right: 100px;
+  }
+
+  .col-lg-9{
+    font-size: 30px;
+
+  }
+  .brand{
+    background-color: rgb(255, 250, 132);
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-left:200px ;
+    padding-right: 100px;
+  }
+  .one, .two, .three, .four, .five, .six, .seven, .eight{
+    margin-top: 40px;
+  }
+  .para{
+    padding-top: 30px;
+    padding-right: 50px;
+  }
+  .caption{
+    display:flex;
+    padding-top: 30px;
+    }
+  article{
+     background-color: rgb(116, 125, 121);
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-left:250px ;
+    padding-right: 120px;
+  }
+  article p{
+    padding-top: 40px;
+  }
+  .news{
+    background-color: rgb(116, 125, 121);
+    margin-top: 30px ;
+    margin-bottom: 40px ;
+    padding-top: 40px; 
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px ;
+  }
+  .news h5{
+    padding-bottom: 20px;
+  }
+  .news .col-lg-4 p{
+    padding-top: 30px;
+  }
+  div a{
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    padding-bottom: 60px;
+  }
+  .all{
+    padding-top: 30px;
+  }
+  footer{
+    background-color: rgb(116, 125, 121);
+    margin-top: 50px;
+    padding-top: 120px;
+    padding-left: 150px;
+    padding-right: 50px;
+     padding-bottom: 20px;
+   }
+  footer .col-lg-2 a, footer .col-lg-4 a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding-right: 0;
+  }
+  footer .col-lg-2, footer .col-lg-4{
+    padding-top: 0;
+  }
+  footer .col-lg-2 .social{
+    display: block;
+  }
+
+  footer .check a{
+    display: inline;
+    padding-left: 5px;
+
+  }
+  footer .col-lg-2 a{
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  footer .col-lg-4 a{
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  form a{
+    text-decoration: none;
+    color: #000000;
+  }
+  input[type=email]{
+    width: 75%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid #000000;
+    background-color:  rgb(116, 125, 121);
+  }
+  label{
+    padding: 0 12px 12px 0;
+    display: inline-block;
+  }
+ .check input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    padding-left: 0;
+    margin-top: 5px;
+   }
+  input[type=submit]{
+    background-color: rgb(116, 125, 121);
+    border: none;
+    margin-left: 180px;
+    cursor: pointer;
+  }
+}
+
+ 
